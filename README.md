@@ -3,7 +3,10 @@ Algoritmo de gerenciamento de pilha em memória;
 Trabalho feito na faculdade em linguagem C, Compilado no ambiente Dev c++;
 Usei duas Struct uma para anexar os dados do item ( nome, id) e outra para armazenar esses dados em pilha;
 
-
+# include <stdio.h>
+# include <stdlib.h>
+#include <string.h>
+# define tamanho 5
 #include <locale.h>
 struct pilha{
     char nomeprog[50];
